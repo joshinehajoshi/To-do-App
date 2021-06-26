@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(47, 18, 23);
+    height: 100%;
+}
+
+.card {
+    text-align: center !important;
+    width: 50%;
+    margin: auto;
+}
+
+.searchBarDiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchBar{
+    width: 80%;
+}
