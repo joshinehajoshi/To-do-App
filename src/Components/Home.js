@@ -43,7 +43,7 @@ export default function Home() {
                         itemarr.map((items, index) => {
                             return(
                                 <div className='searchBarDiv'>
-                                <h3 className='Items' key={index}>{items}</h3>
+                                <h5 className='Items' key={index}>{items}</h5>
                                 <Button variant="dark" onClick={() => deleteHandler(index)}>Remove</Button>
                                 </div>
                             )
