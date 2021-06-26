@@ -7,13 +7,10 @@ export default function About() {
         <div>
             <div className='container py-4'>
                 <Card>
-                <Card.Header>About Us Card</Card.Header>
+                <Card.Header><h2><b>About Us Card</b></h2></Card.Header>
                 <Card.Body>
-                    <Card.Title>Special title treatment</Card.Title>
-                    <Card.Text>
-                    With supporting text below as a natural lead-in to additional content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Card.Title><h1><b>Happy Coding!!!</b></h1></Card.Title>
+                    <Button variant="warning">Go somewhere</Button>
                 </Card.Body>
                 </Card>
             </div>

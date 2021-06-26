@@ -7,13 +7,23 @@ body{
     text-align: center !important;
     width: 50%;
     margin: auto;
+    background-color: #745581;
 }
 
 .searchBarDiv{
     display: flex;
     justify-content: space-around;
+    margin: 2rem;
 }
 
 .searchBar{
     width: 80%;
+}
+.Items{
+    width: 70%;
+    background-color: white;
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 1rem;
+    margin: 0%;
 }
